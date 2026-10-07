@@ -1,0 +1,8 @@
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/outputs/
+*.npz
+*.onnx
+*.pt
+*.pth
+tools/
