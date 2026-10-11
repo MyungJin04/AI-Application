@@ -1,0 +1,4 @@
+policy,score,completion,offtrack_rate,mean_abs_d
+expert,89.824,1.0,0.0,0.102
+base,9.295,0.203,1.0,0.084
+finetune,86.723,1.0,0.0,0.133

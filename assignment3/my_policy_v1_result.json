@@ -1,0 +1,35 @@
+{
+ "student": "202312312_송명진",
+ "data": "v1",
+ "best_val": 0.014339423598170078,
+ "onnx": "/content/drive/MyDrive/AIApp/week06/my_policy_v1.onnx",
+ "compare": [
+  {
+   "policy": "expert",
+   "score": 89.824,
+   "completion": 1.0,
+   "offtrack_rate": 0.0,
+   "mean_abs_d": 0.102
+  },
+  {
+   "policy": "base",
+   "score": 9.295,
+   "completion": 0.203,
+   "offtrack_rate": 1.0,
+   "mean_abs_d": 0.084
+  },
+  {
+   "policy": "finetune",
+   "score": 86.723,
+   "completion": 1.0,
+   "offtrack_rate": 0.0,
+   "mean_abs_d": 0.133
+  }
+ ],
+ "failure_C": {
+  "terminated": false,
+  "step": 802,
+  "mean_abs_d_last30": 0.09428339503486313,
+  "kappa_at_end": 0.25
+ }
+}
