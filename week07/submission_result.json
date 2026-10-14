@@ -1,0 +1,124 @@
+{
+  "student": "202312312 송명진",
+  "version": "v2",
+  "rounds": 2,
+  "best_round": "v1",
+  "tinytrack": "0.3.1",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "input": {
+    "name": "image",
+    "dtype": "tensor(float)",
+    "shape": [
+      "batch",
+      3,
+      66,
+      200
+    ]
+  },
+  "output": {
+    "name": "steer",
+    "dtype": "tensor(float)",
+    "shape": [
+      "batch",
+      1
+    ]
+  },
+  "onnx_sha256": "f3554d500c8e72de011bb5ad2873edb598e17b2d3da5095cce978d63524c4002",
+  "parity_max_abs_error": {
+    "1": 4.470348358154297e-08,
+    "8": 1.1920928955078125e-07
+  },
+  "summary": [
+    {
+      "policy": "v1",
+      "tracks": "notebook_random",
+      "disturbance": "1.0x",
+      "mean_score": 86.61643657350128,
+      "std_score": 0.2916031144374074,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.0
+    },
+    {
+      "policy": "v1",
+      "tracks": "notebook_random",
+      "disturbance": "1.2x",
+      "mean_score": 62.719860354764705,
+      "std_score": 16.72910996119356,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.5
+    },
+    {
+      "policy": "v1",
+      "tracks": "public",
+      "disturbance": "1.0x",
+      "mean_score": 86.43442257602517,
+      "std_score": 0.20459077008101903,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.0
+    },
+    {
+      "policy": "v1",
+      "tracks": "public",
+      "disturbance": "1.2x",
+      "mean_score": 69.58026753555032,
+      "std_score": 11.063930462915184,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.3333333333333333
+    },
+    {
+      "policy": "v2",
+      "tracks": "notebook_random",
+      "disturbance": "1.0x",
+      "mean_score": 86.61643657350128,
+      "std_score": 0.2916031144374074,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.0
+    },
+    {
+      "policy": "v2",
+      "tracks": "notebook_random",
+      "disturbance": "1.2x",
+      "mean_score": 62.719860354764705,
+      "std_score": 16.72910996119356,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.5
+    },
+    {
+      "policy": "v2",
+      "tracks": "public",
+      "disturbance": "1.0x",
+      "mean_score": 86.43442257602517,
+      "std_score": 0.20459077008101903,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.0
+    },
+    {
+      "policy": "v2",
+      "tracks": "public",
+      "disturbance": "1.2x",
+      "mean_score": 69.58026753555032,
+      "std_score": 11.063930462915184,
+      "mean_completion": 1.0,
+      "mean_offtrack_rate": 0.3333333333333333
+    }
+  ],
+  "note": "notebook_random uses the notebook's disclosed seeds 101/202; instructor hidden grading may differ",
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.0",
+    "threads": 2
+  },
+  "source_sha256": {
+    "tinytrack.py": "57bf0044d1003fbecc894574881b37629ca01624815bb7d4a44d95d82c7676e8",
+    "my_dataset_v1.npz": "5c0cea92bb5f9c3ed1e470f5426ed9bf9d3c82e7ed2f3687b94e67c543b63ad2",
+    "my_policy_v1.pt": "b3915de18813808621ef4d4e5b69f7b9ef3a142956a6104492d068e4c465e82a",
+    "Week07_demo.ipynb": "38867a7d7a26cd4aa2a8c7c981d293fd1f91d35f8ff3962f9d2e6fe4c178ddf7"
+  }
+}
