@@ -6,3 +6,4 @@
 *.pt
 *.pth
 tools/
+!week07/my_policy_v2.onnx
