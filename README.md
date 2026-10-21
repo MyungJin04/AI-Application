@@ -4,7 +4,7 @@
 
 | 과제 | 파일 | 현재 검증 상태 |
 | --- | --- | --- |
-| 과제 1: Python 데이터 처리 | [과제1_202312312_송명진.ipynb](assignment1/과제1_202312312_송명진.ipynb) | 기본 1~5와 심화 6~7 모두 실행 및 자동채점 통과 |
+| 과제 1: Python 데이터 처리 | [과제1_202312312_송명진.ipynb](assignment1/과제1_202312312_송명진.ipynb) | 기본 1 ~ 5와 심화 6 ~ 7 모두 실행 및 자동채점 통과 |
 | 과제 2: 데이터 정제 | [과제2_202312312_송명진.ipynb](assignment2/과제2_202312312_송명진.ipynb) | 6개 함수 구현 완료. 수업 스타터 `tinytrack.py` 확보 후 전체 실행 필요 |
 | 과제 3: 미세조정 · ONNX 배포 · 폐루프 평가 | [과제3_202312312_송명진.ipynb](assignment3/과제3_202312312_송명진.ipynb)<br>[my_policy_v1.onnx](assignment3/my_policy_v1.onnx)<br>[compare_v1.csv](assignment3/compare_v1.csv)<br>[my_policy_v1_result.json](assignment3/my_policy_v1_result.json) | 문제 1~6 자동채점 통과 출력 및 저장된 오류 없음 확인. 심화 결과표·근거 3줄 확인. ONNX 평가 결과와 CSV·JSON 일치 검증 완료 |
 | 7주차 리더보드 v2: DAgger | [my_policy_v2.onnx](week07/my_policy_v2.onnx)<br>[실험 기록과 실행 노트북](week07/README.md) | DAgger 2회전 완료. 선택 v1. ONNX 계약·배치 1/8 출력 검증 완료. 공개 세 시드 평균 1.0× 86.43 / 1.2× 69.58 |
