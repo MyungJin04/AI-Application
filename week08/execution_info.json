@@ -1,0 +1,66 @@
+{
+  "student": "202312312 송명진",
+  "date": "2026-10-21",
+  "source_notebook_sha256": "2dbef1c1b9407d467b469c09ce4292e8727fde653f256cf97232f4fb958c45e8",
+  "tinytrack_sha256": "57bf0044d1003fbecc894574881b37629ca01624815bb7d4a44d95d82c7676e8",
+  "prior_model_sha256": "12c4ab83cb4b1bc21c837adeb235b078ce9e009810f99ff2a61c6616976f61b5",
+  "prior_dataset_sha256": "32e78b24e719645baf2566e07de69faae13dff6ba4138da9dcc11fe81440d5f0",
+  "fast": false,
+  "threads": 2,
+  "elapsed_seconds": 600.94,
+  "protocol": {
+    "public_tracks": [
+      "A",
+      "B",
+      "C"
+    ],
+    "notebook_random_seeds": [
+      101,
+      202
+    ],
+    "evaluation_seed": 0,
+    "n_episodes_per_track": 1,
+    "max_steps": 1500,
+    "base_noise": 0.02,
+    "noise_condition": 0.08,
+    "normal_disturb": {
+      "every": 50,
+      "d": 0.35,
+      "psi": 0.3
+    },
+    "hard_disturb": {
+      "every": 50,
+      "d": 0.42,
+      "psi": 0.36
+    }
+  },
+  "adaptations": [
+    "Local input/output paths",
+    "Windows Korean font",
+    "CPU 2 threads",
+    "FAST=False full mode",
+    "Graph axes named with score unit",
+    "Final comparison chart redrawn from the same CSV with values labelled and legend outside axes"
+  ],
+  "note": "Random 101/202 tracks are the notebook's own evaluation, not instructor hidden grading.",
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2",
+    "nbclient": "0.11.0",
+    "nbformat": "5.11.1"
+  },
+  "data": {
+    "total_frames": 4421,
+    "training_frames": 3278,
+    "validation_frames": 1143,
+    "split": "by run, validation fraction 0.2, seed 0",
+    "multitask_temporal_training_frames": 3000
+  },
+  "lecture_reference": {
+    "file": "AI_Application_Week08.pdf",
+    "page": 19
+  }
+}

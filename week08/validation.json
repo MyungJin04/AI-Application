@@ -1,0 +1,27 @@
+{
+  "executed_code_cells": 8,
+  "saved_notebook_errors": 0,
+  "table_shape": [
+    4,
+    5
+  ],
+  "table_report_consistent": true,
+  "five_interpretation_sentences": true,
+  "modular_and_e2e_ignore_state": true,
+  "multitask_rows": 4,
+  "temporal_rows": 4,
+  "cil_rows": 3,
+  "files": {
+    "cil.csv": "badbdd912780af6c1f8d9f91e9b36752bbb31549e01d614d8c59eb143ba41e23",
+    "cil_switch.png": "182d52b91e0b6eea5267a5efaba2c6e449b3d798e5a9888340c59d3fa4ec7c9c",
+    "compare_conditions.png": "c0ab9b610c898ece53375b5c5290d431a1fb616b44691ea241de8854384f6878",
+    "compare_v2.csv": "390f8d8bba2f0ac010ee3c32570c5402080f749c509c3aff1fa894e863f5e550",
+    "execution_info.json": "31346a86e27f82d66110c5fc37b0e9defdc5f325b70fe3888d0db830ef017c0f",
+    "multitask.csv": "d897a6bc3394c09df2c6436e3dbcf15fb3367512ab0678a710f5310db16a83f3",
+    "README.md": "8c98421f676383b9607731149a606b4f4e8f6fcb1a29a54e1636badffcb82de4",
+    "speed_profile.png": "487f21b74e3c59729f31a49fd57582a247805434684e8033a23a73fc062cee36",
+    "temporal.csv": "bd3bf667e975dbcfa25555fdb78c60fda95feee1feac77f459fad49dce498d54",
+    "Week08_202312312_송명진.ipynb": "1240da606c93843f22ca4ef37aabdb746ac6a6c3e8f4f24f80ad603abb301e83",
+    "비교리포트_202312312_송명진.md": "d54dcd77e01d2c66a368fc4c1bfd32de68ff849d79608db91d3a7e9aac9c9b5d"
+  }
+}
